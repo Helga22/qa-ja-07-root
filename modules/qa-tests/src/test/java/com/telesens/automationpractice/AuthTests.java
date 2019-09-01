@@ -1,5 +1,8 @@
 package com.telesens.automationpractice;
 
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+import java.util.Properties;
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
 
@@ -15,15 +18,37 @@ import org.openqa.selenium.support.ui.Select;
 public class AuthTests {
     private WebDriver driver;
     private String baseUrl = "http://automationpractice.com/index.php";
-    private String login = System.getProperty("login");
-    private String password = System.getProperty("password");
+    Properties prop = new Properties();
+    CharSequence login = prop.getProperty("login");
+    CharSequence password = prop.getProperty("password");
 
     @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception {
         System.setProperty("webdriver.gecko.driver", "D:/drivers/selenium/geckodriver.exe");
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+
+        InputStream inputStream = null;
+        try {
+            String propFileName = "automationpractice.properties";
+
+            inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);
+
+            if (inputStream != null) {
+                prop.load(inputStream);
+            } else {
+                throw new FileNotFoundException("property file :" + propFileName + "not found in the classpath");
+            }
+
+
+        } catch (Exception e) {
+            System.out.println("Exception: " + e);
+        } finally {
+            inputStream.close();
+        }
     }
+
+    ;
 
     @Test
     public void testAuthSuccess() throws Exception {
