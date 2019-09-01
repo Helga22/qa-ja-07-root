@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="selenium" duration-ms="28412" started-at="2019-09-01T21:25:02 EEST" finished-at="2019-09-01T21:25:30 EEST">
+    <groups>
+    </groups>
+    <test name="login" duration-ms="28412" started-at="2019-09-01T21:25:02 EEST" finished-at="2019-09-01T21:25:30 EEST">
+      <class name="com.telesens.automationpractice.AuthTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.telesens.automationpractice.AuthTests@5c3bd550]" name="setUp" is-config="true" duration-ms="10153" started-at="2019-09-01T21:25:02 EEST" finished-at="2019-09-01T21:25:12 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAuthSuccess()[pri:0, instance:com.telesens.automationpractice.AuthTests@5c3bd550]" name="testAuthSuccess" duration-ms="14680" started-at="2019-09-01T21:25:12 EEST" finished-at="2019-09-01T21:25:26 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAuthSuccess -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.telesens.automationpractice.AuthTests@5c3bd550]" name="tearDown" is-config="true" duration-ms="3462" started-at="2019-09-01T21:25:26 EEST" finished-at="2019-09-01T21:25:30 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.telesens.automationpractice.AuthTests -->
+    </test> <!-- login -->
+  </suite> <!-- selenium -->
+</testng-results>
