@@ -19,8 +19,8 @@ public class AuthTests {
     private WebDriver driver;
     private String baseUrl = "http://automationpractice.com/index.php";
     Properties prop = new Properties();
-    CharSequence login = prop.getProperty("login");
-    CharSequence password = prop.getProperty("password");
+    CharSequence login;
+    CharSequence password;
 
     @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception {
@@ -36,6 +36,8 @@ public class AuthTests {
 
             if (inputStream != null) {
                 prop.load(inputStream);
+                login = prop.getProperty("login");
+                password = prop.getProperty("password");
             } else {
                 throw new FileNotFoundException("property file :" + propFileName + "not found in the classpath");
             }
