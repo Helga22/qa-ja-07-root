@@ -2,7 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="selenium">
-    <test name="login">
+    <test name="loginFF">
+        <parameter name="browser" value="firefox"/>
         <classes>
             <class name="com.telesens.automationpractice.AuthTests" />
         </classes>
