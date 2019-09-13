@@ -3,9 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="8e44f08f-8c86-4e5f-b36a-45116cdd4e56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AuthTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AuthTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/test-classes/com/telesens/automationpractice/AuthTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/test-classes/com/telesens/automationpractice/AuthTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/qa-tests/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/junitreports/TEST-com.telesens.automationpractice.AuthTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/junitreports/TEST-com.telesens.automationpractice.AuthTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/old/selenium/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/modules/qa-tests/target/surefire-reports/testng-results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AuthTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="119" column="76" selection-start-line="119" selection-start-column="76" selection-end-line="119" selection-end-column="76" />
+            <state>
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/qa-tests/testng.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/selector/practice/Selectors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="459">
+              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -83,6 +93,7 @@
         <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/org/openqa/selenium/example/Selenium2Example.java" />
         <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AuthTests.java" />
         <option value="$PROJECT_DIR$/modules/qa-tests/testng.xml" />
+        <option value="$PROJECT_DIR$/modules/qa-tests/src/test/java/selector/practice/Selectors.java" />
       </list>
     </option>
   </component>
@@ -114,9 +125,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="642" />
-    <option name="width" value="1283" />
-    <option name="height" value="1040" />
+    <option name="x" value="627" />
+    <option name="y" value="477" />
+    <option name="width" value="1290" />
+    <option name="height" value="562" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -194,6 +206,16 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="automationpractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qaja07test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qaja07test" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="qa-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="qaja07test" type="b2602c69:ProjectViewProjectNode" />
@@ -357,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567377301105</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" commit">
+      <created>1567962962404</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567962962404</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -403,8 +432,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4974093" visible="true" weight="0.23154363" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974093" weight="0.26912752" />
       <window_info id="Structure" order="1" sideWeight="0.50259066" side_tool="true" weight="0.20604026" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -434,7 +464,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value=" commit" />
+    <option name="LAST_COMMIT_MESSAGE" value=" commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -612,13 +643,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/rozetka/RozetkaTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/com/telesens/automationpractice/AuthTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="119" column="76" selection-start-line="119" selection-start-column="76" selection-end-line="119" selection-end-column="76" />
+        <state>
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/qa-tests/src/test/java/selector/practice/Selectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
         </state>
       </provider>
     </entry>
